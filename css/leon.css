@@ -74,15 +74,12 @@ body {
   height: 2px;
 }
 
-.header .links .icons span:first-child {
+.header .links .icons span {
   width: 100%;
 }
 .header .links .icons span:nth-child(2) {
   width: 70%;
   transition: 0.3s;
-}
-.header .links .icons span:last-child {
-  width: 100%;
 }
 .header .links ul {
   list-style: none;
@@ -135,7 +132,6 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 320px;
-  max-width: 100%;
 }
 .landing .intro-text h1 {
   margin: 0px;
@@ -247,8 +243,8 @@ body {
   background-color: var(--second-color);
   height: calc(100% + 60px);
   width: 90px;
-  top: -30px;
   position: absolute;
+  top: -30px;
   right: 20px;
   z-index: -5;
 }
@@ -271,13 +267,13 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 30px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .portfolio .container .port-content .project {
   background-color: white;
 }
 .portfolio .container .port-content .image img {
-  max-width: 100%;
+  width: 100%;
 }
 .portfolio .container .port-content .text {
   padding: 20px;
